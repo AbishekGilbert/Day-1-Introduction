@@ -1,0 +1,69 @@
+1) For the given json iterate over all for loops(for, for in, for of ,for Each)
+	For loop:
+	var mark=[80,95,98,78,75];
+	for(var i=0;i<5;i++){
+	console.log(mark[i]);
+	}
+	
+	For in loop
+	var bike = {"name":"royal enfield","model":2020}
+	for(var i in bike){
+	console.log(i,bike[i]);
+	}
+	
+	For of loop
+	exammark=[20,40,60,80,90];
+	for(var i of exammark)\{
+	console.log(i);
+	}
+	
+	For each loop
+	test=[12,24,36,48,60,72,84,96,108,120];
+	test.foreach(function(value,index)
+	console.log(value,index);
+
+
+2)let myResume={
+    "basics": {
+      "name": "Abishek Gilbert",
+      "email": "abishek.gilbert0511@gamil.com",
+      "phone": 9080964314,
+      "degree": "B.E",
+      "location": {
+        "address": "12/247A, shanthoor,ketti post",
+        "postalCode": 643215,
+        "city": "Ooty",
+        "state": "Tamilnadu",
+        "country": "India"
+      },
+      
+    "education": [
+      {
+        "institution": "Vels University",
+        "department": "Marine Engineering",
+        "studyType": "fulltime",
+        "batch start year": 2014,
+        "batch end year": 2018,
+        "gpa": 7.0,
+      }
+    ],
+    "skills": [
+      {
+        "name": "javascript",
+        "level": "beginer",
+        
+      }
+    ],
+    "languages": [
+      {
+        "language": "Tamil,Enlish",
+      }
+    ],
+    "interests": [
+      {
+        "name": "music,cricket,",
+      }
+    ]
+  }
+  console.log(myResume);
+
